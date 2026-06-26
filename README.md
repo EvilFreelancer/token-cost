@@ -55,23 +55,23 @@ amortization.
 
 ## Install
 
-This skill is packaged as a plugin for **Claude Code**, **Cursor**, and **OpenAI Codex**, and also installs as a plain **skill folder** (Kimi Code CLI and others).
+This skill is distributed through the **rpa-skills** catalog (a Claude Code plugin marketplace), and also installs as a plain **skill folder** (Cursor, OpenAI Codex, Kimi Code CLI, and others).
 
-**As a plugin (Claude Code):**
+**As a plugin (Claude Code)** — add the catalog once, then install this skill from it:
 
 ```text
-/plugin marketplace add EvilFreelancer/token-cost
-/plugin install token-cost@token-cost
+/plugin marketplace add EvilFreelancer/rpa-skills
+/plugin install token-cost@rpa-skills
 ```
 
-**As a plain skill folder** — copy or symlink `skills/token-cost/` into a skill root:
+**As a plain skill folder** — copy or symlink this repository into a skill root (its `SKILL.md` lives at the repo root):
 
-| Tool          | Path                            |
-|---------------|---------------------------------|
-| Claude Code   | `~/.claude/skills/token-cost/`  |
-| Cursor        | `~/.cursor/skills/token-cost/`  |
-| OpenAI Codex  | `~/.codex/skills/token-cost/`   |
-| Kimi Code CLI | `~/.kimi/skills/token-cost/`    |
+| Tool          | Path                          |
+|---------------|-------------------------------|
+| Claude Code   | `~/.claude/skills/token-cost/`      |
+| Cursor        | `~/.cursor/skills/token-cost/`      |
+| OpenAI Codex  | `~/.codex/skills/token-cost/`       |
+| Kimi Code CLI | `~/.kimi/skills/token-cost/`        |
 
 The directory name must match the `name` field in `SKILL.md`.
 

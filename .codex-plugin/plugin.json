@@ -19,7 +19,7 @@
     "economics",
     "vllm"
   ],
-  "skills": "./skills/",
+  "skills": "./",
   "interface": {
     "displayName": "token-cost",
     "shortDescription": "Floor cost of a self-hosted LLM token: electricity + hardware amortization.",
