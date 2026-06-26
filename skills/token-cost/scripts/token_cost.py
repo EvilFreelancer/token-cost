@@ -2,7 +2,7 @@
 """Estimate the floor (lower-bound) cost of LLM tokens.
 
 Based on the formula from the article "Почём нынче токен для народа?"
-by Pavel Zloi (https://t.me/evilfreelancer):
+by Pavel Rykov (https://t.me/evilfreelancer):
 
     C_1M = ((P_kW * T_kWh + S / H_life) * 1e6) / (R_tok_s * 3600)
 
