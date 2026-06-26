@@ -1,0 +1,20 @@
+{
+  "name": "token-cost",
+  "displayName": "token-cost",
+  "version": "1.0.0",
+  "description": "Estimate the floor (self-) cost of a self-hosted LLM token: electricity + hardware amortization. Measures power (nvidia-smi) and tok/s on the server, asks for tariff and hardware cost, prints cost per 1M input/output tokens. Not the market API price.",
+  "author": {
+    "name": "Pavel Zloi",
+    "email": "paul@drteam.rocks"
+  },
+  "license": "MIT",
+  "keywords": [
+    "llm",
+    "self-hosted",
+    "gpu",
+    "cost",
+    "tokens",
+    "economics",
+    "vllm"
+  ]
+}
