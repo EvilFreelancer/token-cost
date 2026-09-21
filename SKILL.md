@@ -1,6 +1,7 @@
 ---
 name: token-cost
-version: 1.0.0
+metadata:
+  version: 1.0.0
 description: >
   Use when the user invokes /token-cost or asks for the floor / bedrock / self-cost /
   "real" price of LLM tokens on a self-hosted server — the physical lower bound from
