@@ -76,11 +76,11 @@ coddy skills sync
 
 | Tool          | Path                          |
 |---------------|-------------------------------|
+| Coddy         | `~/.coddy/skills/token-cost/`       |
 | Claude Code   | `~/.claude/skills/token-cost/`      |
 | Cursor        | `~/.cursor/skills/token-cost/`      |
 | OpenAI Codex  | `~/.codex/skills/token-cost/`       |
 | Kimi Code CLI | `~/.kimi/skills/token-cost/`        |
-| Coddy         | `~/.coddy/skills/token-cost/`       |
 
 The directory name must match the `name` field in `SKILL.md`.
 
